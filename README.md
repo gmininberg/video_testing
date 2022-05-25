@@ -33,6 +33,10 @@ since this is public repo that can be used by everyone but no one other then me 
 - think also about how to run the automation (CI)
 - write a document that explain what you want to test and why testing it
 - play with the application and see what happens if you change any of the runing parameters
+- fell free to play with the code and change it in order to understand more how does it work
+- for some documents about: (keep in mind that i might chnaged the APIs for the perpose of this task)
+  - @Vonage/media-processor: https://vonage.github.io/media-processor
+  - @Vonage/ml-transformers: https://vonage.github.io/ml-transformers
 
 
 # Good Luck
