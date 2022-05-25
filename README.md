@@ -16,7 +16,7 @@ since this is public repo that can be used by everyone but no one other then me 
 1. install nvm on your computer: 
   - uinx base: https://github.com/nvm-sh/nvm
   - windows: https://github.com/coreybutler/nvm-windows
-2. insall npm 16.13 using the nvm installed in #1
+2. insall node 16.13 using the nvm installed in #1
 3. install the app `npm install`
 4. now you can run the app `npm run dev`
 
@@ -34,9 +34,6 @@ since this is public repo that can be used by everyone but no one other then me 
 - write a document that explain what you want to test and why testing it
 - play with the application and see what happens if you change any of the runing parameters
 - fell free to play with the code and change it in order to understand more how does it work
-- for some documents about: (keep in mind that i might chnaged the APIs for the perpose of this task)
-  - @Vonage/media-processor: https://vonage.github.io/media-processor
-  - @Vonage/ml-transformers: https://vonage.github.io/ml-transformers
 
 
 # Good Luck
