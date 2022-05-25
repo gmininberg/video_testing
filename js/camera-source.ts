@@ -43,9 +43,7 @@ class CameraSource {
   async stopMediaProcessorConnector() {
     if(this.mediaProcessorConnector_){
       this.mediaProcessorConnector_.destroy().then(() => {
-        let processedStream = new MediaStream();
-        processedStream.addTrack(this.videoTrack_);
-        this.sink_.setMediaStream(processedStream); 
+        this.sink_.destroy()
       })
       .catch(e => {
         console.log(e);

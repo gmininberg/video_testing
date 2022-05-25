@@ -6,8 +6,7 @@ async function main() {
   try {
     await isSupported();
   } catch(e) {
-    console.log(e);
-    alert('Something bad happened: ' + e);
+    console.error(e);
     return;
   }
 
@@ -30,6 +29,8 @@ async function main() {
       for(let camera of sourceArray_){
         await camera.stopMediaProcessorConnector()
       }
+      numberOfVideosSelector.disabled = false
+        sendStatsSelector.disabled = false
       return;
     }
 
@@ -57,6 +58,8 @@ async function main() {
         }))
         camera.setMediaProcessorConnector(connector);
         sourceArray_.push(camera)
+        numberOfVideosSelector.disabled = true
+        sendStatsSelector.disabled = true
       })
       .catch(e => {
         throw(e)
