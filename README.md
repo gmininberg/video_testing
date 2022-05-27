@@ -1,7 +1,7 @@
 # Vonage Media processing QA exercise
 
 ## Purpose
-Test web application.
+Test the library ml-transformers
 
 ## Goal
 1. Build a test plan of what need to be tested.
